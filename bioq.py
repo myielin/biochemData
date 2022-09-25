@@ -4,7 +4,6 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-
 ##### dados
 conc = pd.DataFrame({'v':[0, 1500*0.1, 1500*0.25, 1500*0.375, 1500*0.75, 1500]})
 bsa = pd.DataFrame({
